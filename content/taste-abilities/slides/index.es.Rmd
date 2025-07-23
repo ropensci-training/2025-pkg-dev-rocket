@@ -34,9 +34,9 @@ get_pic <- function(id, alt, width) {
     paste0(id, ".jpeg"),
     '" alt="',
     alt,
-    '" caption="Picture by [',
+    '" caption="Foto de [',
     info$photographer,
-    ' on Pexels](',
+    ' en Pexels](',
     info$url,
     ')." width="',
     width,
@@ -58,14 +58,6 @@ get_pic(id = 3697811, alt = "Red rocket ship", 250)
 > La única forma de escribir buen código es escribir primero toneladas de código de mierda. Sentir vergüenza por el código malo te impide llegar al código bueno.
 
 [Traducción de una entrada en Mastodon de Hadley Wickham](https://fosstodon.org/@hadleywickham/112021309035884210)
-
-***
-
-## ¿Qué es buen código?
-
-> Si eres un programador experimentado y tienes la tentación de avergonzar a alguien por su código, intenta recordar tu propio millón de líneas de código malo. Imagina que entonces alguien se hubiera burlado de ti (...). ¿Habrías seguido pidiendo ayuda? ¿Habrías superado alguna vez tu millón de líneas?
-
-Traducción de una entrada del blog de David Robinson ["Un millón de líneas de código defectuoso"](http://varianceexplained.org/programming/bad-code/)
 
 ***
 

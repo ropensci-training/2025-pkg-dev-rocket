@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: b45af7802387c976
+rmd_hash: b5f26abdd1737b51
 
 ---
 
@@ -19,7 +19,7 @@ rmd_hash: b45af7802387c976
 
 <div class="highlight">
 
-{{< figure src="3697811.jpeg" alt="Red rocket ship" caption="Picture by [Matheus Bertelli on Pexels](https://www.pexels.com/photo/editorial-photo-of-red-rocket-ship-3697811/)." width="250" >}}
+{{< figure src="3697811.jpeg" alt="Red rocket ship" caption="Foto de [Matheus Bertelli en Pexels](https://www.pexels.com/photo/editorial-photo-of-red-rocket-ship-3697811/)." width="250" >}}
 
 </div>
 
@@ -30,14 +30,6 @@ rmd_hash: b45af7802387c976
 > La única forma de escribir buen código es escribir primero toneladas de código de mierda. Sentir vergüenza por el código malo te impide llegar al código bueno.
 
 [Traducción de una entrada en Mastodon de Hadley Wickham](https://fosstodon.org/@hadleywickham/112021309035884210)
-
-------------------------------------------------------------------------
-
-## ¿Qué es buen código?
-
-> Si eres un programador experimentado y tienes la tentación de avergonzar a alguien por su código, intenta recordar tu propio millón de líneas de código malo. Imagina que entonces alguien se hubiera burlado de ti (...). ¿Habrías seguido pidiendo ayuda? ¿Habrías superado alguna vez tu millón de líneas?
-
-Traducción de una entrada del blog de David Robinson ["Un millón de líneas de código defectuoso"](http://varianceexplained.org/programming/bad-code/)
 
 ------------------------------------------------------------------------
 
