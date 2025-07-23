@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 4a1e3774d1ab5eee
+rmd_hash: dcfefafccfbfe2b3
 
 ---
 
@@ -224,7 +224,7 @@ Por favor, publícalo en el chat
 
 ### Código lo más simple posible: "early return"
 
-:ojos
+:eyes:
 
 <div class="highlight">
 
@@ -264,7 +264,7 @@ Por favor, publícalo en el chat
 
 ### Código lo más sencillo posible: `switch()`
 
-:ojos:
+:eyes:
 
 <div class="highlight">
 
