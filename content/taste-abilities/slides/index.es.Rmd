@@ -259,7 +259,7 @@ do_this <- function() {
 
 ### Código lo más simple posible: "early return"
 
-:destellos
+:sparkles:
 
 ```{r, eval=FALSE}
 do_this <- function() {
@@ -293,7 +293,7 @@ if (type == "mean") {
 
 ### Código lo más sencillo posible: `switch()`
 
-:destellos:
+:sparkles:
 
 ```{r, eval=FALSE}
 switch(

@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: dcfefafccfbfe2b3
+rmd_hash: 902c461d6e31f6f1
 
 ---
 
@@ -244,7 +244,7 @@ Por favor, publícalo en el chat
 
 ### Código lo más simple posible: "early return"
 
-:destellos
+:sparkles:
 
 <div class="highlight">
 
@@ -282,7 +282,7 @@ Por favor, publícalo en el chat
 
 ### Código lo más sencillo posible: `switch()`
 
-:destellos:
+:sparkles:
 
 <div class="highlight">
 
