@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: b5f26abdd1737b51
+rmd_hash: 4a1e3774d1ab5eee
 
 ---
 
@@ -139,7 +139,7 @@ Más información: [Comprobar las entradas de tus funciones en R](https://blog.r
 
 ------------------------------------------------------------------------
 
-## Interfaz :mic: `stop()` :mic:
+## Interfaz :microphone: `stop()` :microphone:
 
 -   Bonitos mensajes con {cli}.
 -   Mensajes de error con {cli}, guía de estilo de la tidyverse.
@@ -204,7 +204,7 @@ Está bien decir no a las peticiones de funciones. [Ejemplo](https://github.com/
 
 ------------------------------------------------------------------------
 
-## Menos código :mic: `stop()` :mic:
+## Menos código :microphone: `stop()` :microphone:
 
 -   Elegir dependencias.
 -   Dependencias a evitar.
@@ -420,7 +420,7 @@ Más información: <https://blog.r-hub.io/2023/01/26/code-comments-self-explaini
 
 ------------------------------------------------------------------------
 
-## Código :mic: `stop()` :mic:
+## Código :microphone: `stop()` :microphone:
 
 -   "Early return".
 -   Estética del código.
@@ -525,7 +525,7 @@ Para leer más: <https://www.tidyverse.org/blog/2023/10/testthat-3-2-0/#mocking>
 
 ------------------------------------------------------------------------
 
-## Tests :mic: `stop()` :micrófono
+## Tests :microphone: `stop()` :micrófono
 
 -   DAMP/DRY
 -   Código de prueba frente a código
