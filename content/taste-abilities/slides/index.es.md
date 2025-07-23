@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 902c461d6e31f6f1
+rmd_hash: f109e05ba3da782c
 
 ---
 
@@ -525,7 +525,7 @@ Para leer más: <https://www.tidyverse.org/blog/2023/10/testthat-3-2-0/#mocking>
 
 ------------------------------------------------------------------------
 
-## Tests :microphone: `stop()` :micrófono
+## Tests :microphone: `stop()` :microphone:
 
 -   DAMP/DRY
 -   Código de prueba frente a código
