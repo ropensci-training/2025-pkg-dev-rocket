@@ -46,7 +46,7 @@ weight = 40
 
 [params]
   editURL = "https://github.com/ropensci-training/2024-pkg-dev-rocket/edit/main/content/"
-  description = "Package Development: Not Rocket Science"
+  description = "Desarrollo de paquetes Avanzados: no es ciencia espacial"
   author = "Maëlle Salmon"
   showVisitedLinks = true
   disableBreadcrumb = false
