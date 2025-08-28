@@ -311,7 +311,7 @@ switch(
 
 Para leer más: [El código huele y se siente](https://github.com/jennybc/code-smells-and-feels) por Jenny Bryan
 
-*:toolbox: Examina la lógica de una o varias funciones. ¿Podrías simplificarla con retornos anticipados, funciones auxiliares? ¿Cambiar el ordon de las condiciones de ifelse?*
+*:toolbox: Examina la lógica de una o varias funciones. ¿Podrías simplificarla con retornos anticipados, funciones auxiliares? ¿Cambiar el orden de las condiciones de ifelse?*
 
 ***
 
