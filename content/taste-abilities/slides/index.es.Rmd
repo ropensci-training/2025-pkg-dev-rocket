@@ -146,6 +146,8 @@ cli::cli_abort(
 
 *:toolbox: Revisa los mensajes de error de tu paquete (busca `stop()` y equivalentes). ¿Podrían mejorarse algunos de ellos aplicando la guía de la tidyverse?*
 
+Tal vez con AI: <https://simonpcouch.github.io/chores/reference/cli_helper.html>
+
 ***
 
 ### Comprobación de argumentos

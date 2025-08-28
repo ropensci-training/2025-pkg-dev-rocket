@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 7fed1222ad897f42
+rmd_hash: e0d3eb38278440e9
 
 ---
 
@@ -126,6 +126,8 @@ Para leer más: <https://ropensci.org/blog/2024/02/06/verbosity-control-packages
 ### Mensajes de error
 
 *:toolbox: Revisa los mensajes de error de tu paquete (busca [`stop()`](https://rdrr.io/r/base/stop.html) y equivalentes). ¿Podrían mejorarse algunos de ellos aplicando la guía de la tidyverse?*
+
+Tal vez con AI: <https://simonpcouch.github.io/chores/reference/cli_helper.html>
 
 ------------------------------------------------------------------------
 
