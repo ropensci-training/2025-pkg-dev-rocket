@@ -8,4 +8,4 @@ title: "Desarrollo de Paquetes Avanzado"
 > [Programa Campeon(e|a)s](https://ropensci.org/es/champions/)
 
 Taller para quiénes ya han desarrollado, o contribuido a, paquetes R.
-Mejor vienes con un paquete tuyo para trabajar en ello.
+Mejor venís con un paquete tuyo para trabajar en ello.
