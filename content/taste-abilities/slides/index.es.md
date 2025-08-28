@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: f109e05ba3da782c
+rmd_hash: 9220e69419156e6b
 
 ---
 
@@ -35,11 +35,11 @@ rmd_hash: f109e05ba3da782c
 
 ## Taller de hoy
 
-Presentaré una colección de cosas muy útiles que he aprendido en los últimos años.
+Voy a presentar una colección de cosas muy útiles que aprendí en los últimos años.
 
-Después de cada sección haré un resumen y te pediré que comentes.
+Después de cada sección voy a hacer un resumen y te voy a pedir que comentes.
 
-Después, elige una cosa para mejorar en tu paquete.
+Después, elegí una cosa para mejorar en tu paquete.
 
 ------------------------------------------------------------------------
 
@@ -49,7 +49,7 @@ Después, elige una cosa para mejorar en tu paquete.
 
 ### Mensajes agradables
 
-Conoce a los [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
+Te presento al [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
 
 <div class="highlight">
 
@@ -96,7 +96,7 @@ Para leer más: <https://ropensci.org/blog/2024/02/06/verbosity-control-packages
 
 ### Mensajes de error
 
--   Consejos sobre el contenido en el [guía de estilo de tidyverse](https://style.tidyverse.org/error-messages.html) con ejemplos.
+-   Consejos sobre el contenido en la [guía de estilo de tidyverse](https://style.tidyverse.org/error-messages.html) con ejemplos.
 
 -   Interfaz con [`cli::cli_abort()`](https://cli.r-lib.org/reference/cli_abort.html)
 
@@ -104,13 +104,13 @@ Para leer más: <https://ropensci.org/blog/2024/02/06/verbosity-control-packages
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>cli</span><span class='nf'>::</span><span class='nf'><a href='https://cli.r-lib.org/reference/cli_abort.html'>cli_abort</a></span><span class='o'>(</span></span>
 <span>  <span class='nf'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='o'>(</span></span>
-<span>    <span class='s'>"Can't find good error message."</span>,</span>
-<span>    i <span class='o'>=</span> <span class='s'>"Read the tidyverse style guide."</span></span>
+<span>    <span class='s'>"No se encuentra un mensaje de error adecuado."</span>,</span>
+<span>    i <span class='o'>=</span> <span class='s'>"Lee la guía de estilo de tidyverse."</span></span>
 <span>  <span class='o'>)</span></span>
 <span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; <span style='color: #BBBB00; font-weight: bold;'>Error</span><span style='font-weight: bold;'>:</span></span></span>
-<span><span class='c'>#&gt; <span style='color: #BBBB00;'>!</span> Can't find good error message.</span></span>
-<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Read the tidyverse style guide.</span></span>
+<span><span class='c'>#&gt; <span style='color: #BBBB00; font-weight: bold;'>Error</span><span style='font-weight: bold;'> in `.f()`:</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #BBBB00;'>!</span> No se encuentra un mensaje de error adecuado.</span></span>
+<span><span class='c'>#&gt; <span style='color: #00BBBB;'>ℹ</span> Lee la guía de estilo de tidyverse.</span></span>
 <span></span></code></pre>
 
 </div>
@@ -119,7 +119,7 @@ Para leer más: <https://ropensci.org/blog/2024/02/06/verbosity-control-packages
 
 ### Mensajes de error
 
-*:toolbox: Revisa los mensajes de error de tu paquete (busca [`stop()`](https://rdrr.io/r/base/stop.html) y equivalentes). ¿Podrían mejorarse algunos de ellos aplicando la guía de la tidyverse?*
+*:toolbox: Revisá los mensajes de error de tu paquete (busca [`stop()`](https://rdrr.io/r/base/stop.html) y equivalentes). ¿Podrían mejorarse algunos de ellos aplicando la guía de tidyverse?*
 
 ------------------------------------------------------------------------
 
@@ -127,7 +127,7 @@ Para leer más: <https://ropensci.org/blog/2024/02/06/verbosity-control-packages
 
 -   Tipo de argumento del documento, por defecto.
 
--   Comprueba los argumentos. [`rlang::arg_match()`](https://rlang.r-lib.org/reference/arg_match.html) por ejemplo.
+-   Comprobá los argumentos. [`rlang::arg_match()`](https://rlang.r-lib.org/reference/arg_match.html) por ejemplo.
 
 Más información: [Comprobar las entradas de tus funciones en R](https://blog.r-hub.io/2022/03/10/input-checking/) por Hugo Gruson , Sam Abbott , Carl Pearson.
 
@@ -135,17 +135,17 @@ Más información: [Comprobar las entradas de tus funciones en R](https://blog.r
 
 ### Comprobación de argumentos
 
-*:toolbox: ¿Tu paquete documenta y valida los argumentos? Mejora esto en una sola función o más.*
+*:toolbox: ¿Tu paquete documenta y valida los argumentos? Mejorá esto en una sola función o en más funciones.*
 
 ------------------------------------------------------------------------
 
 ## Interfaz :microphone: `stop()` :microphone:
 
--   Bonitos mensajes con {cli}.
--   Mensajes de error con {cli}, guía de estilo de la tidyverse.
--   Comprobación de argumentos con rlang, entrada del blog R-hub.
+-   Mensajes bonitos con {cli}.
+-   Mensajes de error con {cli}, guía de estilo de tidyverse.
+-   Comprobación de argumentos con rlang, artículo del blog R-hub.
 
-Por favor, publícalo en el chat
+Por favor, publicalo en el chat
 
 -   ¡Algo que te haya parecido interesante!
 -   ¡Algo con lo que no estabas de acuerdo!
@@ -170,7 +170,7 @@ Más información: [Dependencias: Mentalidad y antecedentes](https://r-pkgs.org/
 
 ### Sopesa tus dependencias
 
-En la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/building.html#recommended-scaffolding)
+En la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/pkg_building.es.html#recommended-scaffolding)
 
 -   curl, httr2, crul, httr. No RCurl. Para un nuevo paquete, httr2 en vez de httr.
 
@@ -210,7 +210,7 @@ Está bien decir no a las peticiones de funciones. [Ejemplo](https://github.com/
 -   Dependencias a evitar.
 -   Definir el ámbito del paquete.
 
-Por favor, publícalo en el chat
+Por favor, publicalo en el chat
 
 -   ¡Algo que te haya parecido interesante!
 -   ¡Algo con lo que no estabas de acuerdo!
@@ -252,7 +252,7 @@ Por favor, publícalo en el chat
 <span>  <span class='kr'>if</span> <span class='o'>(</span><span class='o'>!</span><span class='nf'>is_that_present</span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
 <span>    <span class='kr'><a href='https://rdrr.io/r/base/function.html'>return</a></span><span class='o'>(</span><span class='kc'>NULL</span><span class='o'>)</span></span>
 <span>  <span class='o'>&#125;</span></span>
-<span>  <span class='c'># more code</span></span>
+<span>  <span class='c'># mas código</span></span>
 <span></span>
 <span>  <span class='nv'>blip</span></span>
 <span><span class='o'>&#125;</span></span>
@@ -302,7 +302,7 @@ Por favor, publícalo en el chat
 
 Para leer más: [El código huele y se siente](https://github.com/jennybc/code-smells-and-feels) por Jenny Bryan
 
-*:toolbox: Examina la lógica de una o varias funciones. ¿Podrías simplificarla con retornos anticipados, funciones auxiliares? ¿Cambiar la ordén de las condiciones de ifelse?*
+*:toolbox: Examina la lógica de una o varias funciones. ¿Podrías simplificarla con retornos anticipados, funciones auxiliares? ¿Cambiar el orden de las condiciones de ifelse?*
 
 ------------------------------------------------------------------------
 
@@ -330,7 +330,7 @@ Algunos de ellos sólo son relevantes si ves código.
 
 #### Alineación de códigos
 
--   Alinea los argumentos en las definiciones de función.
+-   Alineá los argumentos en las definiciones de función.
 
 -   ¿Más alineación vertical? No soy sensible a ello :innocent:
 
@@ -361,13 +361,13 @@ En RStudio IDE o Positron. En cualquier caso, es bueno para indicar la estructur
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='c'># Header level 1 ----</span></span>
-<span><span class='nv'>more</span></span>
-<span><span class='nv'>code</span></span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='c'># Encabezado de nivel 1 ----</span></span>
+<span><span class='nv'>mas</span></span>
+<span><span class='nv'>código</span></span>
 <span></span>
-<span><span class='c'>## Header level 2 ----</span></span>
-<span><span class='nv'>more</span></span>
-<span><span class='nv'>code</span></span></code></pre>
+<span><span class='c'>## Encabezado de nivel 2 ----</span></span>
+<span><span class='nv'>mas</span></span>
+<span><span class='nv'>código</span></span></code></pre>
 
 </div>
 
@@ -390,7 +390,7 @@ Los comentarios que repiten el código quedan desfasados.
 ### Menos comentarios / código autoexplicativo
 
 ``` r
-# use only non empty strings
+# usar únicamente cadenas no vacías.
 if (!is.na(x) && nzchar(x)) {
   use_string(x)
 }
@@ -416,7 +416,7 @@ if (is_non_empty_string(x)) {
 
 Más información: <https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/>
 
-*:toolbox: ¿Existen posibilidades de hacer menos comentarios (¡o más comentarios!) en algunos de tus guiones?*
+*:toolbox: ¿Existen posibilidades de hacer menos comentarios (¡o más comentarios!) en algunos de tus scripts de R?*
 
 ------------------------------------------------------------------------
 
@@ -426,7 +426,7 @@ Más información: <https://blog.r-hub.io/2023/01/26/code-comments-self-explaini
 -   Estética del código.
 -   Menos comentarios/código autoexplicativo.
 
-Por favor, publica en el chat
+Por favor, escribí en el chat
 
 -   ¡Algo que te haya parecido interesante!
 -   ¡Algo con lo que no estabas de acuerdo!
@@ -440,9 +440,9 @@ Por favor, publica en el chat
 
 ### HUMEDO / SECO
 
-"DAMP (descriptive and meaningful phrases)"
+"DAMP (descriptive and meaningful phrases)" Frases descriptivas y significativas
 
-"DRY (don't repeat yourself)"
+"DRY (don't repeat yourself)" No te repitas
 
 ¡Un intercambio!
 
@@ -456,7 +456,7 @@ El código está cubierto por el código de tests, ¡así que podemos asumir má
 
 ### Tests ideales
 
--   Autónomas.
+-   Autónomos.
 
 -   Se pueden ejecutar de forma interactiva. [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html).
 
@@ -468,7 +468,7 @@ El código está cubierto por el código de tests, ¡así que podemos asumir má
 
 Exploremos <https://github.com/maelle/swamp>
 
-*:toolbox: ¿Algunas de tus tests tienen código de nivel superior? ¿Puedes crear archivos y funciones de ayuda, y repetir la creación de objetos en cada prueba?*
+*:toolbox: ¿Algunos de tus tests tienen código de nivel superior? ¿Podés crear archivos y funciones de ayuda, y repetir la creación de objetos en cada prueba?*
 
 ------------------------------------------------------------------------
 
@@ -485,7 +485,7 @@ Mi código
 <span></span>
 <span><span class='nv'>my_complicated_code</span> <span class='o'>&lt;-</span> <span class='kr'>function</span><span class='o'>(</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
 <span>  <span class='kr'>if</span> <span class='o'>(</span><span class='nf'>is_internet_down</span><span class='o'>(</span><span class='o'>)</span><span class='o'>)</span> <span class='o'>&#123;</span></span>
-<span>    <span class='nf'><a href='https://rdrr.io/r/base/message.html'>message</a></span><span class='o'>(</span><span class='s'>"No internet! Le sigh"</span><span class='o'>)</span></span>
+<span>    <span class='nf'><a href='https://rdrr.io/r/base/message.html'>message</a></span><span class='o'>(</span><span class='s'>"¡No hay internet! ¡Ay!"</span><span class='o'>)</span></span>
 <span>  <span class='o'>&#125;</span></span>
 <span>  <span class='c'># blablablabla</span></span>
 <span><span class='o'>&#125;</span></span></code></pre>
@@ -503,9 +503,9 @@ En el test,
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span></span>
-<span><span class='nf'>test_that</span><span class='o'>(</span><span class='s'>"my_complicated_code() notes the absence of internet"</span>, <span class='o'>&#123;</span></span>
+<span><span class='nf'>test_that</span><span class='o'>(</span><span class='s'>"my_complicated_code() señala la ausencia de Internet"</span>, <span class='o'>&#123;</span></span>
 <span>  <span class='nf'>local_mocked_bindings</span><span class='o'>(</span>is_internet_down <span class='o'>=</span> <span class='kr'>function</span><span class='o'>(</span><span class='nv'>...</span><span class='o'>)</span> <span class='kc'>TRUE</span><span class='o'>)</span></span>
-<span>  <span class='nf'>expect_message</span><span class='o'>(</span><span class='nf'>my_complicated_code</span><span class='o'>(</span><span class='o'>)</span>, <span class='s'>"No internet"</span><span class='o'>)</span></span>
+<span>  <span class='nf'>expect_message</span><span class='o'>(</span><span class='nf'>my_complicated_code</span><span class='o'>(</span><span class='o'>)</span>, <span class='s'>"No hay internet"</span><span class='o'>)</span></span>
 <span><span class='o'>&#125;</span><span class='o'>)</span></span>
 <span></span></code></pre>
 
@@ -532,7 +532,7 @@ Para leer más: <https://www.tidyverse.org/blog/2023/10/testthat-3-2-0/#mocking>
 -   Pruebas ideales (autónomas, pueden ejecutarse interactivamente, sin fugas)
 -   Simulación
 
-Por favor, publica en el chat
+Por favor, escribe en el chat
 
 -   ¡Algo que te haya parecido interesante!
 -   ¡Algo con lo que no estabas de acuerdo!
@@ -542,7 +542,7 @@ Por favor, publica en el chat
 
 ## Elige tu propia aventura
 
-...¡con tu propio paquete! En salas de descanso.
+...¡con tu propio paquete! En salas de grupos de zoom.
 
 Nos reuniremos en XX minutos como grupo para debatir.
 
@@ -556,5 +556,5 @@ Nos reuniremos en XX minutos como grupo para debatir.
 
 ## Muchas gracias.
 
-Nos vemos en el `#package-maintenance` canal? :wink:
+Nos vemos en el canal `#package-maintenance`? :wink:
 
