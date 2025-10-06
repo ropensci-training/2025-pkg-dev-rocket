@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 470e649e4df470ec
+rmd_hash: efc33afe10361b33
 
 ---
 
@@ -153,6 +153,14 @@ Más información: [Comprobar las entradas de tus funciones en R](https://blog.r
 -   Mensajes de error con {cli}, guía de tidyverse.
 -   Comprobación de argumentos con rlang, entrada del blog R-hub.
 
+------------------------------------------------------------------------
+
+## Interfaz :microphone: `stop()` :microphone:
+
+-   Bonitos mensajes con {cli}.
+-   Mensajes de error con {cli}, guía de tidyverse.
+-   Comprobación de argumentos con rlang, entrada del blog R-hub.
+
 Por favor, publícalo en el chat
 
 -   ¡Algo que te haya parecido interesante!
@@ -192,6 +200,14 @@ En la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/building.h
 
 ### Sopesa tus dependencias
 
+Evaluar la actividad en GitHub de los colaboradores
+
+<https://ropensci.org/es/blog/2022/07/01/evaluating-github-activity-for-contributors/>
+
+------------------------------------------------------------------------
+
+### Sopesa tus dependencias
+
 *:toolbox: ¿Hay dependencias que podrías añadir, sustituir o eliminar en tu paquete?*
 
 ------------------------------------------------------------------------
@@ -218,7 +234,13 @@ Está bien decir no a las peticiones de funciones. [Ejemplo](https://github.com/
 -   Dependencias a evitar.
 -   Definir el ámbito del paquete.
 
-. . .
+------------------------------------------------------------------------
+
+## Menos código :microphone: `stop()` :microphone:
+
+-   Elegir dependencias.
+-   Dependencias a evitar.
+-   Definir el ámbito del paquete.
 
 Por favor, publícalo en el chat
 
@@ -346,7 +368,7 @@ Algunos de ellos sólo son relevantes si ves código.
 
 ------------------------------------------------------------------------
 
-#### Párrafos
+#### :sleeping_face: Párrafos
 
 Un párrafo = una idea (¡también sirve para escribir prosa!).
 
@@ -365,7 +387,7 @@ El espacio vertical es costoso (¿qué cabe en la pantalla?)
 
 ------------------------------------------------------------------------
 
-#### Comentarios en la cabecera
+#### :sleeping_face: Comentarios en la cabecera
 
 En RStudio IDE o Positron. En cualquier caso, es bueno para indicar la estructura de alto nivel dentro de un script.
 
@@ -383,7 +405,7 @@ En RStudio IDE o Positron. En cualquier caso, es bueno para indicar la estructur
 
 ------------------------------------------------------------------------
 
-### Estética del código
+### :sleeping_face: Estética del código
 
 *:toolbox: Abre uno o varios scripts, ¿puedes mejorar la estética? ¿Usar [Air](https://posit-dev.github.io/air/) en todo el paquete?*
 
@@ -427,6 +449,14 @@ if (is_non_empty_string(x)) {
 Más información: <https://blog.r-hub.io/2023/01/26/code-comments-self-explaining-code/>
 
 *:toolbox: ¿Existen posibilidades de hacer menos comentarios (¡o más comentarios!) en algunos de tus guiones?*
+
+------------------------------------------------------------------------
+
+## Código :microphone: `stop()` :microphone:
+
+-   "Early return".
+-   Estética del código.
+-   Menos comentarios/código autoexplicativo.
 
 ------------------------------------------------------------------------
 
@@ -527,20 +557,31 @@ En el test,
 
 Para leer más: <https://www.tidyverse.org/blog/2023/10/testthat-3-2-0/#mocking>
 
+y <https://testthat.r-lib.org/dev/articles/challenging-tests.html>
+
 ------------------------------------------------------------------------
 
 ### Mocking
 
 *:toolbox: ¿tienes una situación de este tipo para probar?*
 
-\*\*\*git
+------------------------------------------------------------------------
 
 ## Tests :microphone: `stop()` :microphone:
 
 -   DAMP/DRY
--   Código de prueba frente a código
+-   Código de prueba diferente de código
 -   Pruebas ideales (autónomas, pueden ejecutarse interactivamente, sin fugas)
--   Simulación
+-   Mocking
+
+------------------------------------------------------------------------
+
+## Tests :microphone: `stop()` :microphone:
+
+-   DAMP/DRY
+-   Código de prueba diferente de código
+-   Pruebas ideales (autónomas, pueden ejecutarse interactivamente, sin fugas)
+-   Mocking
 
 Por favor, publica en el chat
 
@@ -552,7 +593,7 @@ Por favor, publica en el chat
 
 ## Elige tu propia aventura
 
-...¡con tu propio paquete! En salas de descanso.
+...¡con tu propio paquete! En salas de Zoom.
 
 Nos reuniremos en XX minutos como grupo para debatir.
 
