@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: e0d3eb38278440e9
+rmd_hash: 828dba89c21b44be
 
 ---
 
@@ -133,7 +133,7 @@ Tal vez con AI: <https://simonpcouch.github.io/chores/reference/cli_helper.html>
 
 ### Comprobación de argumentos
 
--   Tipo de argumento del documento, por defecto.
+-   Documenta el tipo de argumento.
 
 -   Comprueba los argumentos. [`rlang::arg_match()`](https://rlang.r-lib.org/reference/arg_match.html) por ejemplo.
 

@@ -152,7 +152,7 @@ Tal vez con AI: <https://simonpcouch.github.io/chores/reference/cli_helper.html>
 
 ### Comprobación de argumentos
 
-- Tipo de argumento del documento, por defecto.
+- Documenta el tipo de argumento.
 
 - Comprueba los argumentos. `rlang::arg_match()` por ejemplo.
 
