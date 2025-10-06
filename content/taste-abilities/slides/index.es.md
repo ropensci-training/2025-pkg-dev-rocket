@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 828dba89c21b44be
+rmd_hash: 470e649e4df470ec
 
 ---
 
@@ -150,7 +150,7 @@ Más información: [Comprobar las entradas de tus funciones en R](https://blog.r
 ## Interfaz :microphone: `stop()` :microphone:
 
 -   Bonitos mensajes con {cli}.
--   Mensajes de error con {cli}, guía de estilo de la tidyverse.
+-   Mensajes de error con {cli}, guía de tidyverse.
 -   Comprobación de argumentos con rlang, entrada del blog R-hub.
 
 Por favor, publícalo en el chat
@@ -217,6 +217,8 @@ Está bien decir no a las peticiones de funciones. [Ejemplo](https://github.com/
 -   Elegir dependencias.
 -   Dependencias a evitar.
 -   Definir el ámbito del paquete.
+
+. . .
 
 Por favor, publícalo en el chat
 
