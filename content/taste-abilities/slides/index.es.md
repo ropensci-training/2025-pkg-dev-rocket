@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: efc33afe10361b33
+rmd_hash: 9fb31643aa86da56
 
 ---
 
@@ -55,7 +55,7 @@ Después, elige una cosa para mejorar en tu paquete.
 
 ### Mensajes agradables
 
-Conoce a los [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
+Conoce al [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
 
 <div class="highlight">
 

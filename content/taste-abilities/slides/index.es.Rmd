@@ -85,7 +85,7 @@ Después, elige una cosa para mejorar en tu paquete.
 
 ### Mensajes agradables
 
-Conoce a los [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
+Conoce al [paquete cli](https://blog.r-hub.io/2023/11/30/cliff-notes-about-cli/)
 
 ```{r}
 variable <- 42
